@@ -3,5 +3,11 @@
   "repo": "",
   "branch": "main",
   "dataPath": "lineups.json",
-  "encryptedToken": null
+  "encryptedToken": {
+    "v": 1,
+    "iter": 310000,
+    "salt": "zWtZ6FXaDLz3KjJlpOHVMA==",
+    "iv": "5R10S1OKBW+mc5z6",
+    "data": "HvEbxdCemC65tZI3TNt7m7/iPnQr5COgIbwpEBW+HbvFju5S+VOZkRQiI0Hnpip7hliqw+GLUncp/7tjttokeQ28NAkgglN1yJC0M8yjBFiD5DSyERoPpJkICig/w2f21Yr/h5ShynKowEmvHw=="
+  }
 }
