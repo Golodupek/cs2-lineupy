@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#121417">
+  <title>CS2 Lineupy</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23f5a524'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%23121417' stroke-width='3'/%3E%3Cpath d='M16 2v8M16 22v8M2 16h8M22 16h8' stroke='%23121417' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-row">
+      <a href="#/" class="logo" aria-label="Strona główna">
+        <span class="logo-mark"></span><span class="logo-text">CS2 <b>Lineupy</b></span>
+      </a>
+      <form class="search" id="searchForm" role="search">
+        <input id="searchInput" type="search" placeholder="Szukaj… np. window" autocomplete="off" aria-label="Szukaj lineupów">
+      </form>
+      <nav class="top-actions">
+        <a href="#/ulubione" class="icon-btn" title="Ulubione" aria-label="Ulubione">★</a>
+        <a href="#/admin" class="icon-btn" id="adminLink" title="Panel edycji" aria-label="Panel edycji">✎</a>
+      </nav>
+    </div>
+    <nav class="crumbs" id="crumbs" aria-label="Okruszki"></nav>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <div class="loading">Ładowanie…</div>
+  </main>
+
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+
+  <script type="module" src="assets/js/app.js"></script>
+  <noscript><p style="padding:2rem;color:#fff">Ta strona wymaga JavaScriptu.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-22T18:00:00.000Z",
+  "maps": [
+    { "id": "mirage", "name": "Mirage", "order": 1, "areas": ["A", "Mid", "B"] },
+    { "id": "dust2", "name": "Dust II", "order": 2, "areas": ["A", "Mid", "B"] },
+    { "id": "inferno", "name": "Inferno", "order": 3, "areas": ["A", "Mid", "B"] },
+    { "id": "nuke", "name": "Nuke", "order": 4, "areas": ["A", "Outside", "B"] },
+    { "id": "ancient", "name": "Ancient", "order": 5, "areas": ["A", "Mid", "B"] },
+    { "id": "anubis", "name": "Anubis", "order": 6, "areas": ["A", "Mid", "B"] },
+    { "id": "train", "name": "Train", "order": 7, "areas": ["A", "B"] },
+    { "id": "overpass", "name": "Overpass", "order": 8, "areas": ["A", "Mid", "B"] }
+  ],
+  "lineups": [
+    {
+      "id": "mirage-smoke-przyklad-0001",
+      "map": "mirage",
+      "grenade": "smoke",
+      "side": "T",
+      "area": "Mid",
+      "title": "Smoke na Window (PRZYKŁAD)",
+      "throw": "jump",
+      "difficulty": "easy",
+      "description": "To jest przykładowy wpis – usuń go albo edytuj w panelu (✎ w prawym górnym rogu).\nTu opisz, gdzie dokładnie stanąć i w co wycelować, np. „stań w rogu przy skrzynce, wyceluj w czubek anteny”.",
+      "video": "",
+      "tags": ["window", "przykład"],
+      "images": [
+        { "src": "images/mirage/przyklad-1.webp" },
+        { "src": "images/mirage/przyklad-2.webp" },
+        { "src": "images/mirage/przyklad-3.webp" }
+      ],
+      "author": "Admin",
+      "createdAt": "2026-11-22T18:00:00.000Z",
+      "updatedAt": "2026-11-22T18:00:00.000Z"
+    }
+  ]
+}
